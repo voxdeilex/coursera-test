@@ -1,0 +1,98 @@
+h1{
+      /*font-weight: bold;*/
+      text-align: center;
+      font-family: "Comic Sans MS", "Comic Sans", cursive;
+      position: static;
+}
+
+.square, .square_2, .square_3{
+    /*float: left;*/
+    display: inline-block;
+    background:#9d9389;
+    width: 400px;
+    height: 200px;
+    border-style:solid;
+    border-width: 1px;
+    margin: 20px ;
+  }
+  
+  p{
+    /*font-weight: bold;*/
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin: 5px 0 0 10px;
+    
+  }
+/*######### Chicken ######*/
+  .minisquare_1{
+    float: right;
+    background:	 #f68b81;
+    width: 200px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+      
+  }
+
+  .minisquare_1 p{
+    margin: auto;
+    text-align: center;
+    
+  }
+  
+  /*######### Beef ######*/
+  .minisquare_2{
+    float: right;
+    background:#f12d2a;
+    width: 200px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+      
+  }
+
+  .minisquare_2 p{
+    color: white;
+    margin: auto;
+    text-align: center;
+  }
+
+  /*######### Sushi ######*/
+  .minisquare_3{
+    float: right;
+    background: #f4d087;
+    width: 200px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+      
+  }
+
+  .minisquare_3 p{
+    margin: auto;
+    text-align: center;
+  }
+
+  
+   /*######### pc ######*/
+ @media screen and (min-width: 992px){
+  .minisquare_3: right;  
+ }  
+  /*######### responsive Tablet ######*/
+  
+  
+  @media only screen and  (max-width: 991px){
+ 
+  .square_3{
+    width: 100%;
+    
+  }
+
+    /*######### Mobile ######*/
+
+    @media only screen and (max-width: 767px) {
+     
+      .square, .square_2, .square_3{
+        width: 100%;
+       }   
+      }
+    }
